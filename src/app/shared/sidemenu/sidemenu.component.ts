@@ -49,5 +49,16 @@ export class SidemenuComponent {
     },
   ]
 
+  authMenu: MenuItem[] = [
+    {
+      texto: 'Registro',
+      ruta: './auth/registro' //esta ruta es la que sale en el navegador, no la ubicación de la carpeta
+    },
+    {
+      texto: 'Login',
+      ruta: './auth/login'
+    }
+  ]
+
 
 }
